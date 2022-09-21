@@ -9,4 +9,5 @@ Nessa página compartilharei minha trajetória de estudos e alguns projetos que 
 Fique à vontade para visitar meu Linkedin e Portfólio:
 
 Linkedin - https://www.linkedin.com/in/marcos-vinicius-nogueira-89b77614b/
+
 Portfólio - https://marcosviniciusnogueira.github.io/portfolio/
