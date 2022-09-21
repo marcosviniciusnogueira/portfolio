@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Marcos Vinicius Nogueira é desenvolvedor web front-end e trabalha com as principais tecnologias do mercado, buscando sempre um trabalho de excelência.">
+  <title>Marcos Vinicius Nogueira - Desenvolvedor Web Front-end</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <!-- CSS Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- Devicon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <!-- CSS do projeto -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- JavaScript Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="container">
+    <div class="d-flex flex-wrap justify-content-center py-3 mt-2 mb-2">
+      <a href="index.html" id="logo" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <i class="bi bi-code-slash fs-3" id="icon"></i>
+        <span id="logo-text" class="fs-5 ps-3">Marcos Vinicius Nogueira
+          <small id="logo-subtitle" class="text-muted"> - Desenvolvedor Web</small>
+        </span>
+      </a>
+      <nav id="navbar-items">
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+          <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <!-- Capa -->
+    <section id="back-img">
+      <div id="title">
+        <h1 class="display-4">Marcos Vinicius Nogueira</h1>
+        <h2 class="display-6 line typing-animation">Desenvolvedor Web Front-end</h2>
+      </div>      
+    </section>
+    <!-- Sobre -->
+    <section class="container border-bottom" id="sobre">
+      <div class="row" id="sobre-container">
+        <div class="col-6 text-center" id="profile-img-container" >
+          <img src="./img/Profile Github.jpeg" alt="Foto do perfil" class="img-fluid" id="profile-img" >
+        </div>
+        <div class="col-6" id="sobre-txt-container" >
+          <p>Meu nome é Marcos Vinicius Nogueira e estou em fase de transição de carreira para a área de tecnologia. Atualmente tenho estudado lógica de programação, desenvolvimento web, HTML, CSS, JavaScript, Bootstrap, React, Git/Github, etc. Me interesso por desenvolvimento web (front-end) e desenvolvimento de aplicativos mobile (iOS). Também tenho experiência nas áreas de História, Música e Educação, tendo atuado como professor de Música por aproximadamente 12 anos. Me considero um eterno estudante e estou sempre em constante aprendizado. Nessa página compartilharei minha trajetória de estudos e alguns projetos que venho desenvolvendo nessa jornada.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Tecnologias -->
+    <section id="tecnologias" class="container">
+      <div class="row text-center mb-4" id="tech-container">
+        <h2 class="display-6 mt-4">Tecnologias:</h2>
+        <div class="mt-4" id="tech-icons">
+          <i class="px-4 devicon-html5-plain-wordmark colored icon-class"></i>
+          <i class="px-4 devicon-css3-plain-wordmark colored icon-class"></i>
+          <i class="px-4 devicon-javascript-plain colored icon-class"></i>
+          <i class="px-4 devicon-git-plain colored icon-class"></i>
+          <i class="px-4 devicon-github-original colored icon-class"></i>
+          <i class="px-4 devicon-bootstrap-plain colored icon-class"></i>
+          <i id="react-icon" class="px-4 devicon-react-original-wordmark colored icon-class"></i>   
+        </div>    
+      </div>
+    </section>
+    <!-- Parallax -->
+    <div id="parallax"></div>
+    <!-- Projetos -->
+    <section id="projetos" class="container marketing mt-4">
+      <div class="row text-center">
+        <h2 class="display-6 mt-4 mb-5">Projetos:</h2>
+        <div class="col-lg-4 col-md-6 text-center projetos-body">
+          <img id="imovi-img" class="bd-placeholder-img projetos-img" src="./img/imovi.png" alt="Projeto 1 - iMovi">
+          <h2 class="fw-normal mt-3">iMovi</h2>
+          <p>Site institucional responsivo criado utilizando HTML, CSS e Bootstrap</p>
+          <p><a href="https://marcosviniciusnogueira.github.io/Bootstrap/imovi/" target="_blank" class="btn btn-secondary">Ver projeto</a></p>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center projetos-body">
+          <img id="hdc-img" class="bd-placeholder-img projetos-img" src="./img/hdc.png" alt="Projeto 2 - hDC Agency">
+          <h2 class="fw-normal mt-3">hDC Agency</h2>
+          <p>Site institucional responsivo criado utilizando HTML, CSS, Bootstrap e JavaScript</p>
+          <p><a href="https://marcosviniciusnogueira.github.io/Bootstrap/hdc_agency/" target="_blank" class="btn btn-secondary">Ver projeto</a></p>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center projetos-body">
+          <img id="flexturismo-img" class="bd-placeholder-img projetos-img" src="./img/flexturismo.png" alt="Projeto 3 - Flex Turismo">
+          <h2 class="fw-normal mt-3">Flex Turismo</h2>
+          <p>Landing page criada utilizando HTML e CSS, com o foco em flexbox</p>
+          <p><a href="https://marcosviniciusnogueira.github.io/HTML-CSS/FlexTurismos-site/" target="_blank" class="btn btn-secondary">Ver projeto</a></p>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center mt-3 projetos-body">
+          <img id="aog-img" class="bd-placeholder-img projetos-img" src="./img/alcoolougasolina.png" alt="Projeto 4 - Álcool ou Gasolina">
+          <h2 class="fw-normal mt-3">Álcool ou Gasolina</h2>
+          <p>Aplicação criada usando HTML, CSS e JavaScript, com o objetivo de calcular qual o combustível mais vantajoso no momento</p>
+          <p><a href="https://marcosviniciusnogueira.github.io/JavaScript/%C3%81lcool%20ou%20Gasolina/" target="_blank" class="btn btn-secondary">Ver projeto</a></p>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center mt-3 projetos-body">
+          <img id="drum-img" class="bd-placeholder-img projetos-img" src="./img/drummachine.png" alt="Projeto 5 - Drum Machine">
+          <h2 class="fw-normal mt-3">Drum Machine</h2>
+          <p>Bateria eletrônica virtual criada utilizando HTML, CSS e JavaScript, que pode ser tocada tanto pelo mouse quanto pelo teclado</p>
+          <p><a href="https://marcosviniciusnogueira.github.io/JavaScript/Drum%20Machine/" target="_blank" class="btn btn-secondary">Ver projeto</a></p>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center mt-3 projetos-body">
+          <img id="warmup-img" class="bd-placeholder-img projetos-img" src="./img/warmupgenerator.png" alt="Projeto 6 - Warm Up Generator">
+          <h2 class="fw-normal mt-3">Warm Up Generator</h2>
+          <p>Aplicação criada usando HTML, CSS e JavaScript, com o objetivo de gerar exercícios psicomotores aleatórios para serem executados em instrumentos de corda</p>
+          <p><a href="https://marcosviniciusnogueira.github.io/JavaScript/warmupgenerator/" target="_blank" class="btn btn-secondary">Ver projeto</a></p>
+        </div>
+      </div>
+    </section>
+    <!-- Contato -->
+    <section id="contato" class="mt-5 text-center">
+      <h2 class="display-6 mb-5 mt-4">Contato:</h2>
+      <div id="contact-box" class="row g-0">
+        <div id="contact-form" class="col-6 mt-5 mb-5">
+          <p class="fs-5 mb-4">Você pode nos deixar uma mensagem</p>
+          <form action="https://formsubmit.co/kimnog@gmail.com" method="post" >
+            <input type="text" class="form-control" placeholder="Nome" name="name" required>
+            <input type="email" name="email" class="form-control" placeholder="E-mail" required>
+            <textarea class="form-control" rows="3" placeholder="Digite aqui a sua mensagem" name="message" required></textarea>
+            <button type="submit" class="btn btn-secondary">Enviar</button>
+          </form>
+        </div>
+        <div id="social-media" class="col-md-6 mt-md-5 mb-5">
+          <p class="fs-5 mb-4">Ou utilizar os seguintes contatos</p>
+          <div id="social-media-container" class="d-flex flex-column align-items-start">
+            <a class="social-media-icons mb-3" href="https://api.whatsapp.com/send?l=pt_pt&phone=5531998045661" target="_blank"><i id="whatsapp-icon" class="bi bi-whatsapp"></i>Whatsapp</a>
+            <a class="social-media-icons mb-3" href="https://www.linkedin.com/in/marcos-vinicius-nogueira-89b77614b/" target="_blank"><i id="linkedin-icon" class="bi bi-linkedin"></i>Linkedin</a>
+            <a class="social-media-icons mb-3" href="https://github.com/marcosviniciusnogueira" target="_blank"><i id="github-icon" class="bi bi-github"></i>GitHub</a>
+            <a class="social-media-icons mb-3" href="mailto:kimnog@gmail.com"><i id="gmail-icon" class="bi bi-envelope"></i>kimnog@gmail.com</a>
+            <a class="social-media-icons mb-3" href="tel:+5531998045661"><i id="phone-icon" class="bi bi-phone"></i>(31)99804-5661</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid text-center">
+      <p>Marcos Vinicius Nogueira &copy; 2022</p>
+    </footer>
+  </main>
+  
+</body>
+</html>

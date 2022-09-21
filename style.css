@@ -1,0 +1,290 @@
+/* Cabeçalho */
+
+.nav-link {
+    color: grey;
+}
+
+.nav-link:hover {
+    background-color: grey;
+    color: white;
+}
+
+/* Capa */
+
+#back-img {
+    background-image: url(./img/macimgG.jpg);
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+#title {
+    padding-left: 200px;
+}
+
+.line {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typing-animation {
+    animation: typing 4s steps(40) 0.5s normal;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 18em;
+    }
+}
+
+/* Sobre */
+
+#profile-img {
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 250px;
+}
+
+#sobre-txt-container {
+    margin-top: 80px;
+    text-align: justify;
+}
+
+/* Tecnologias */
+
+#tech-icons {
+    font-size: 48px;
+}
+
+.icon-class:hover {
+    color: rgb(138, 248, 248);
+}
+
+/* Parallax */
+
+#parallax {
+    margin-top: 50px;
+    background-image: url(./img/codeimg.jpg);
+    width: 100vw;
+    height: 35vh;
+    background-size: cover;
+    background-position: right top;
+    background-attachment: fixed;
+    filter: blur(2px) grayscale(70%);
+}
+
+/* Projetos */
+
+.projetos-body {
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    padding: 15px;
+}
+
+.projetos-img {
+    height: 140px;
+    width: 220px;
+}
+
+/* Contato */
+
+#contact-box {
+    background-color: #e6e4e4;
+}
+
+#contact-form {
+    padding-left: 50px;
+    padding-right: 50px;
+    border-right: 1px solid rgba(0, 0, 0, 0.37);
+}
+
+#contact-form input[type="text"], 
+#contact-form input[type="email"], 
+#contact-form textarea {
+    margin-bottom: 20px;
+}
+
+#contato .btn {
+    width: 100px;
+}
+
+#social-media-container {
+    margin-left: 300px;
+}
+
+#social-media-container a:hover {
+    color: rgb(59, 59, 238);
+}
+
+.social-media-icons {
+    text-decoration: none;
+    color: black;
+}
+
+.social-media-icons i {
+    padding-right: 10px;
+}
+
+#whatsapp-icon {
+    color: #34af23;
+    font-size: 22px;
+}
+
+#linkedin-icon {
+    color: #007bb6;
+    font-size: 22px;
+}
+
+#github-icon {
+    color: #171515;
+    font-size: 22px;
+}
+
+#gmail-icon {
+    color: rgb(195, 25, 25);
+    font-size: 22px;
+}
+
+#phone-icon {
+    color: #6d6e70;
+    font-size: 22px;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    padding: 20px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+/* Responsividade */
+
+@media (max-width: 1024px) {
+    #back-img {
+        background-image: url(./img/macimgM.jpg);
+    }
+    #title {
+        padding-left: 100px;
+    }
+    #title h1 {
+        font-size: 44px;
+    }
+    #title h2 {
+        font-size: 32px;
+    }
+    #social-media-container {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    #logo, #logo-text, #logo-subtitle {
+        display: none;
+    }
+    #back-img {
+        background-image: url(./img/macimgM.jpg);
+        background-position: right bottom;
+    }
+    #title {
+        padding-left: 25px;
+    }
+    #sobre-txt-container {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    #tech-icons {
+        font-size: 40px;
+    }
+    #social-media-container {
+        margin-left: 25px;
+    }
+} 
+
+@media (max-width: 425px) {
+    .nav-link {
+        font-size: 16px;
+    }
+    #logo, #logo-text, #logo-subtitle, #icon {
+        display: none;
+    }
+    #title {
+        padding-left: 25px;
+    }
+    #title h1 {
+        font-size: 26px;
+    }
+    #title h2 {
+        font-size: 16px;
+    }
+    #profile-img-container {
+        width: 100vw;
+    }
+    #profile-img {
+        width: 100px;
+    }
+    #sobre-txt-container {
+        width: 100vw;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+    #back-img {
+        background-image: url(./img/macimgP.jpg);
+        background-position: right top;
+        height: 429px;
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 80px;
+    }
+    #sobre-txt-container {
+        margin-bottom: 20px;
+    }
+    #parallax {
+        background-image: url(./img/codeimgM.jpg);
+        filter: none;
+        background-size: auto;
+        background-position: left bottom;
+        background-attachment: fixed;
+        height: 25vh;
+    }
+    #contact-form {
+        width: 100vw;
+        border-right: none;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #contact-form form {
+        padding: 20px;
+    }
+    #social-media-container {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .nav-link {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
